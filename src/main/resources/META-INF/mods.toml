@@ -3,24 +3,24 @@ loaderVersion="[36,)"
 license="MIT"
 
 [[mods]]
-modId="examplemod"
-version="0.0.1"
-displayName="Mod name"
+modId="pixelmonwar"
+version="0.0.0"
+displayName="Pixelmon War"
 displayURL="https://github.com/EnvyWare" # URL HERE
 credits="https://github.com/EnvyWare" # Your name here
 authors="https://github.com/EnvyWare" # Your name here
 description='''
-Description of the mod here
+Makes Pixelmon fight you upon punching them.
 '''
 
-[[dependencies.examplemod]]
+[[dependencies.pixelmonwar]]
     modId="forge"
     mandatory=true
     versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.pixelmonwar]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,1.17)"
@@ -28,7 +28,7 @@ Description of the mod here
     side="BOTH"
 
 
-[[dependencies.examplemod]]
+[[dependencies.pixelmonwar]]
     modId="pixelmon"
     mandatory=true
     versionRange="[9.1.2,)"

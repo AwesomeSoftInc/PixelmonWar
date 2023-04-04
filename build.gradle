@@ -82,8 +82,8 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
-group = 'your.domain.path'
-version = '0.0.1'
+group = 'net.ioixd.pixelmonwar'
+version = '0.0.0'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
